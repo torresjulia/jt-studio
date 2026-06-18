@@ -1,21 +1,30 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import Navbar from '@/components/Navbar'
+import type { Metadata } from 'next';
+import { Geist, Geist_Mono } from 'next/font/google';
+import './globals.css';
+import Navbar from '@/components/Navbar';
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
-  title: "JT Studio | Desenvolvimento Web",
-  description: "Desenvolvimento de sites e sistemas para pequenas e médias empresas.",
+  title: 'JT Studio | Desenvolvimento Web',
+  description:
+    'Desenvolvimento de sites e sistemas para pequenas e médias empresas.',
+  icons: {
+    icon: { url: '/icon.svg', type: 'image/svg+xml' },
+    apple: {
+      url: '/apple-touch-icon.png',
+      sizes: '180x180',
+      type: 'image/png',
+    },
+  },
 };
 
 export default function RootLayout({

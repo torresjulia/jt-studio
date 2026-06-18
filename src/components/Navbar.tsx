@@ -10,11 +10,10 @@ export default function Navbar() {
     <header className="fixed top-0 w-full z-50 bg-[#08080f]/80 backdrop-blur-md border-b border-[#6b21a8]/20">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <a href="#inicio" className="flex items-center gap-2">
-          <Code2 size={22} className="text-[#3b82f6]" />
-          <span className="font-bold text-white tracking-wider">
-            JT<span className="text-[#6b21a8]">Studio</span>
-          </span>
+        <a href="#inicio" className="flex items-center gap-1">
+          <span className="text-[#3b82f6] font-bold text-lg">&lt;</span>
+          <span className="text-white font-bold tracking-wide">JT Studio</span>
+          <span className="text-[#6b21a8] font-bold text-lg">/&gt;</span>
         </a>
 
         {/* Menu Desktop */}
