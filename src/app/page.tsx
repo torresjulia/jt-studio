@@ -1,5 +1,6 @@
 import Contato from '@/components/Contato';
 import Hero from '@/components/Hero';
+import PorqueSite from '@/components/PorqueSite';
 import Projetos from '@/components/Projetos';
 import Servicos from '@/components/Servicos';
 import Sistemas from '@/components/Sistemas';
@@ -14,6 +15,7 @@ export default function Home() {
       <section id="sobre">
         <Sobre />
       </section>
+      <PorqueSite />
       <section id="projetos">
         <Projetos />
       </section>
