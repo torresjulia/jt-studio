@@ -19,29 +19,31 @@ export default function Hero() {
         <div className="inline-flex items-center gap-2 bg-[#110f1a] border border-[#6b21a8]/30 rounded-full px-4 py-2 mb-8">
           <div className="w-2 h-2 rounded-full bg-[#3b82f6] animate-pulse" />
           <span className="text-[#94a3b8] text-sm">
-            Disponível para novos projetos
+            Aceitando novos projetos
           </span>
         </div>
 
         {/* Nome */}
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 leading-tight">
-          Olá, sou{' '}
+          Bem-vindo à{' '}
           <span className="bg-gradient-to-r from-[#6b21a8] to-[#3b82f6] bg-clip-text text-transparent">
-            Julia Torres
+            JT Studio
           </span>
         </h1>
 
         {/* Cargo */}
         <h2 className="text-xl md:text-2xl text-[#94a3b8] mb-6 font-light">
-          Desenvolvedora Full Stack & Fundadora da{' '}
-          <span className="text-white font-medium">JT Studio</span>
+          Sua agência de desenvolvimento web para{' '}
+          <span className="text-white font-medium">
+            pequenas e médias empresas
+          </span>
         </h2>
 
         {/* Descrição */}
         <p className="text-[#94a3b8] text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-          Transformo ideias em experiências digitais. Especializada em criar
-          sites e sistemas modernos para pequenas e médias empresas que querem
-          crescer no digital.
+          Transformamos sua ideia em uma experiência digital completa — do
+          design ao código. Sites modernos, rápidos e sob medida para o seu
+          negócio crescer no digital.
         </p>
 
         {/* Botões */}

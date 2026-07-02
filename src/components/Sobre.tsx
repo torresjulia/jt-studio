@@ -21,7 +21,7 @@ export default function Sobre() {
         {/* Cabeçalho */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-[#110f1a] border border-[#6b21a8]/30 rounded-full px-4 py-2 mb-6">
-            <span className="text-[#94a3b8] text-sm">Quem sou eu</span>
+            <span className="text-[#94a3b8] text-sm">Quem somos</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Sobre a{' '}
@@ -35,15 +35,14 @@ export default function Sobre() {
           {/* Texto */}
           <div className="flex flex-col gap-6">
             <p className="text-[#94a3b8] text-lg leading-relaxed">
-              Sou Julia Torres, desenvolvedora full stack apaixonada por
-              transformar ideias em produtos digitais que fazem diferença.
-              Fundei a JT Studio para levar tecnologia de qualidade para
-              pequenas e médias empresas.
+              A JT Studio nasceu com um propósito claro: levar tecnologia de
+              qualidade para pequenas e médias empresas que querem crescer no
+              digital sem complicação.
             </p>
             <p className="text-[#94a3b8] text-lg leading-relaxed">
-              Meu foco é criar sites e sistemas modernos, rápidos e funcionais —
-              sempre com atenção aos detalhes e ao impacto real que a presença
-              digital gera no negócio do cliente.
+              Criamos sites e sistemas modernos, rápidos e funcionais — sempre
+              com atenção aos detalhes e ao impacto real que uma presença
+              digital bem feita gera no negócio do cliente.
             </p>
 
             {/* Cards de destaque */}
@@ -71,7 +70,7 @@ export default function Sobre() {
           {/* Tecnologias */}
           <div className="flex flex-col gap-6">
             <h3 className="text-white font-semibold text-lg">
-              Tecnologias que utilizo
+              Tecnologias que utilizamos
             </h3>
             <div className="flex flex-wrap gap-3">
               {tecnologias.map((tech) => (

@@ -34,6 +34,17 @@ const projetos = [
     cor: 'from-[#1a0a0a] to-[#2a1010]',
     destaque: '#ef4444',
   },
+  {
+    titulo: 'Belle Noiva Studio',
+    categoria: 'Salão de Beleza & Noivas',
+    descricao:
+      'Landing page elegante para estúdio especializado em beleza para noivas. Design delicado com paleta rosada e dourada transmitindo sofisticação e romantismo.',
+    tecnologias: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    link: 'https://belle-noiva-studio.vercel.app',
+    github: 'https://github.com/torresjulia/belle-noiva-studio',
+    cor: 'from-[#2a1020] to-[#3a1a2e]',
+    destaque: '#f9a8d4',
+  },
 ];
 
 export default function Projetos() {
@@ -46,7 +57,7 @@ export default function Projetos() {
         {/* Cabeçalho */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-[#110f1a] border border-[#6b21a8]/30 rounded-full px-4 py-2 mb-6">
-            <span className="text-[#94a3b8] text-sm">Meu trabalho</span>
+            <span className="text-[#94a3b8] text-sm">Nosso trabalho</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Projetos{' '}

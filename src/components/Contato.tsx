@@ -20,7 +20,7 @@ export default function Contato() {
             </span>
           </h2>
           <p className="text-[#94a3b8] max-w-xl mx-auto text-lg">
-            Tem um projeto em mente? Me conta a sua ideia e vamos transformar em
+            Tem um projeto em mente? Conta sua ideia e vamos transformar em
             realidade juntos.
           </p>
         </div>
@@ -66,7 +66,7 @@ export default function Contato() {
             Pronto para começar seu projeto?
           </h3>
           <p className="text-[#94a3b8] mb-8">
-            Respondo em até 24 horas. Vamos conversar sobre sua ideia!
+            Respondemos em até 24 horas. Vamos conversar sobre sua ideia!
           </p>
 
           <a
